@@ -25,9 +25,25 @@ O objetivo é resolver desafios propostos de forma rápida, iterativa e funciona
 - Comentários e docstrings podem ser em português
 - Testes automatizados quando o tempo permitir
 
+## Desafio Ativo
+**Spring PetClinic — Adicionar E-mail e Gênero ao Owner**
+- Repositório: `spring-petclinic/` (fork do `junior151280/spring-petclinic`)
+- Stack: Java 17 + Spring Boot + Maven + Thymeleaf + H2/MySQL
+- Arquivos-chave:
+  - Entidade: `src/main/java/.../owner/Owner.java`
+  - Schema H2: `src/main/resources/db/h2/schema.sql`
+  - Schema MySQL: `src/main/resources/db/mysql/schema.sql`
+  - Schema Postgres: `src/main/resources/db/postgres/schema.sql`
+  - Formulário: `src/main/resources/templates/owners/createOrUpdateOwnerForm.html`
+  - Detalhes: `src/main/resources/templates/owners/ownerDetails.html`
+  - i18n: `src/main/resources/messages/messages.properties`
+  - Testes: `src/test/java/.../owner/OwnerControllerTests.java`
+
 ## Agentes Disponíveis neste Workspace
 - **Research Agent** (`.github/agents/research.agent.md`): pesquisa rápida de tecnologias e abordagens
 - **Planner Agent** (`.github/agents/planner.agent.md`): planejamento de arquitetura de solução
+- **PetClinic Dev Agent** (`.github/agents/petclinic-dev.agent.md`): implementa o desafio passo a passo
 
 ## Skills Disponíveis
 - **github-workflow** (`.github/skills/github-workflow/`): operações Git/GitHub (clone, push, PR)
+- **petclinic-challenge** (`.github/skills/petclinic-challenge/`): guia completo do desafio Spring PetClinic
